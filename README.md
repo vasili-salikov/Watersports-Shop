@@ -26,18 +26,20 @@ Has to be installed:
 1. Clone the repository:
    git clone https://github.com/vasili-salikov/Watersports-Shop.git
 
-2. Install dependencies for React app:
+2. Create and populate the MySQL database using the createDb.sql script from the root folder.
+   
+3. Install dependencies for React app:
    - cd react-app
    - npm install
 
-3. Configure your MySQL connection string in `asp.net-web-api/appsettings.json`.
+4. Configure your MySQL connection string in `asp.net-web-api/appsettings.json`.
 
-4. Build and run the ASP.NET Core Web API:
+5. Build and run the ASP.NET Core Web API:
    - cd ../asp.net-web-api
    - dotnet build
    - dotnet run
 
-5. Start the React app:
+6. Start the React app:
    - cd ../react-app
    - npm start
    
