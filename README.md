@@ -17,7 +17,7 @@ A simple e-commerce website built with React (frontend) and ASP.NET Core Web API
 
 ## Getting Started
 
-Has to be installed:
+Requirements:
 - Node.js and npm
 - .NET 9 SDK
 - MySQL Server
