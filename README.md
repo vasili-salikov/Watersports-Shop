@@ -24,7 +24,7 @@ Requirements:
 - Git
 
 1. Clone the repository:
-   git clone https://github.com/vasili-salikov/Watersports-Shop.git
+   - git clone https://github.com/vasili-salikov/Watersports-Shop.git
 
 2. Create and populate the MySQL database using the createDb.sql script from the root folder.
    
