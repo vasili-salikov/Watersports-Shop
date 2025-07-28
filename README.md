@@ -1,8 +1,9 @@
 A simple e-commerce website built with React (frontend) and ASP.NET Core Web API (backend) using MySQL.
 
 ## Folder Structure
-- react-app/ — React frontend
-- asp.net-web-api/ — ASP.NET Core Web API backend
+- `react-app/` — React frontend
+- `asp.net-web-api/` — ASP.NET Core Web API backend
+- `asp.net-web-api.Tests/` — Unit tests for the ASP.NET Core Web API.
 
 ## Features
 - User registration and login
@@ -42,5 +43,16 @@ Requirements:
 6. Start the React app:
    - cd ../react-app
    - npm start
+
+## Testing
+
+To run the unit tests for the Web API:
+```
+dotnet test
+```
+
+The test suite includes comprehensive tests for:
+- ProductsController (product retrieval)
+- OrdersController (order creation, order history, authentication)
    
    
