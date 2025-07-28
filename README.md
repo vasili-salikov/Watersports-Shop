@@ -70,5 +70,6 @@ dotnet test
 The test suite includes comprehensive tests for:
 - ProductsController (product retrieval)
 - OrdersController (order creation, order history, authentication)
+- UsersController (user registration, login, profile retrieval)
    
    
